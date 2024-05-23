@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: goldenrod;
+    font-family: sans-serif;
+}
+
+
+body{
+    
+    background:#000000;
+
+}
+.link-bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.link-bio img{
+   height: 253px;
+}
+
+
+
+.link-bio a{
+    background-color: goldenrod;
+    color: #161b22;
+    text-decoration: none;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 2px goldenrod;
+    border-radius: 10px;
+}
+
+.link-bio a:hover{
+    background-color:#161b22 ;
+    color: goldenrod;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 40px;
+}
